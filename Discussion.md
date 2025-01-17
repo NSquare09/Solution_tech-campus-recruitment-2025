@@ -54,7 +54,7 @@ Download the large log file using the given URL:
 ```bash
 https://limewire.com/d/90794bb3-6831-4e02-8a59-ffc7f3b8b2a3#X1xnzrH5s4H_DKEkT_dfBuUT1mFKZuj4cFWNoMJGX98
 ```
-This command will download the log file and save it as test_logs.log in your current directory.
+This command will download the log file. Put it in your code directory and rename it as "test_logs.log" in your current directory.
 
 
 ### **3. Run the Program**
