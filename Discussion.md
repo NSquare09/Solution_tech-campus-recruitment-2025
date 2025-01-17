@@ -48,3 +48,28 @@ The solution reads the input file line-by-line, compares each line's timestamp p
 Ensure you have a C compiler installed. Use the following command to compile the program:
 ```bash
 gcc extract_logs.c -o extract_logs
+```
+### **2. Prepare Input**
+Download the large log file using the given URL:
+```bash
+https://limewire.com/d/90794bb3-6831-4e02-8a59-ffc7f3b8b2a3#X1xnzrH5s4H_DKEkT_dfBuUT1mFKZuj4cFWNoMJGX98
+```
+This command will download the log file and save it as test_logs.log in your current directory.
+
+
+### **3. Run the Program**
+Run the compiled executable with the log file and the desired date (YYYY-MM-DD) as arguments:
+```bash
+./extract_logs test_logs.log 2024-12-01
+```
+Replace 2024-12-01 with any date you'd like to extract logs for. This command will filter the logs for the specified date from the test_logs.log file and save the matching entries to an output file.
+
+### **4. Output Location**
+The filtered logs will be saved in the output directory. The output file will be named as output/output_YYYY-MM-DD.txt.
+```bash
+output/output_2024-12-01.txt
+```
+The output file will contain all the logs from test_logs.log that match the specified date (2024-12-01).
+
+
+
